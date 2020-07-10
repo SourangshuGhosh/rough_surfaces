@@ -2,10 +2,6 @@
 
 A Python3 module for the analysis, elastic contact and fluid flow simulation of rock fractures.
 
-Platform | CI Status | Coverage
----------|-------------|-------------:
-Linux, Python 3.6 | [![Build Status](https://travis-ci.org/plang85/rough_surfaces.svg?branch=master)](https://travis-ci.org/plang85/rough_surfaces) | [![codecov](https://codecov.io/gh/plang85/rough_surfaces/branch/master/graph/badge.svg)](https://codecov.io/gh/plang85/rough_surfaces)
-
 ## Install/Contribute
 
 Clone the repo and cd into it using a virtual environment
