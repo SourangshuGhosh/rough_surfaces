@@ -6,7 +6,7 @@ A Python3 module for the analysis, elastic contact and fluid flow simulation of 
 
 Clone the repo and cd into it using a virtual environment
 ```
-git clone https://github.com/plang85/rough_surfaces.git
+git clone https://github.com/SourangshuGhosh/rough_surfaces.git
 cd rough_surfaces
 python3 -m venv venv
 source venv/bin/activate
@@ -52,12 +52,12 @@ print('Hurst = {0:.2f}'.format(invariants[1]))
 
 An isotropic surface is characterized by a near-ideal straight line radially averaged PSD and same-slope curves for the angularly averaged spectra.
 <p align="left">
-  <img src="https://raw.githubusercontent.com/plang85/rough_surfaces/master/doc/isotropic.png" height="400">
+  <img src="https://raw.githubusercontent.com/SourangshuGhosh/rough_surfaces/master/doc/isotropic.png" height="400">
   <br/>
 </p>
 An anisotropic surface is characterized by a less linear radially averaged PSD and different-slope curves for the angularly averaged spectra.
 <p align="left">
-  <img src="https://raw.githubusercontent.com/plang85/rough_surfaces/master/doc/anisotropic.png" height="400">
+  <img src="https://raw.githubusercontent.com/SourangshuGhosh/rough_surfaces/master/doc/anisotropic.png" height="400">
   <br/>
 </p>
 
@@ -75,11 +75,11 @@ contact = rc.contact_FFT(composite_surface, nominal_stress, E, nu, verbose=1)
 For a more detailed snippet see `example_analysis.py`.
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/plang85/rough_surfaces/master/doc/contact.png" height="400">
+  <img src="https://raw.githubusercontent.com/SourangshuGhosh/rough_surfaces/master/doc/contact.png" height="400">
   <br/>
 </p>
 <p align="left">
-  <img src="https://raw.githubusercontent.com/plang85/rough_surfaces/master/doc/contacttrace.png" height="300">
+  <img src="https://raw.githubusercontent.com/SourangshuGhosh/rough_surfaces/master/doc/contacttrace.png" height="300">
   <br/>
 </p>
 
@@ -89,7 +89,7 @@ nominal_stress = np.logspace(6, 8, 15)
 stiffness = rc.stiffness(nominal_stress, surface, E, nu, err_lim=1.0E-8)
 ```
 <p align="left">
-  <img src="https://raw.githubusercontent.com/plang85/rough_surfaces/master/doc/stiffness.png" height="400">
+  <img src="https://raw.githubusercontent.com/SourangshuGhosh/rough_surfaces/master/doc/stiffness.png" height="400">
   <br/>
 </p>
 
